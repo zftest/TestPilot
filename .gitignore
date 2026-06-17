@@ -1,0 +1,71 @@
+# ============================================
+# TestPilot .gitignore
+# ============================================
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Node.js ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+build/
+*.tsbuildinfo
+.next/
+.nuxt/
+
+# ---- IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ---- Docker ----
+docker-compose.override.yml
+
+# ---- Environment ----
+.env
+.env.local
+.env.*.local
+*.env
+
+# ---- Database ----
+*.db
+*.sqlite
+pgdata/
+mysqldata/
+
+# ---- OS ----
+Desktop.ini
+$RECYCLE.BIN/
+
+# ---- Coverage ----
+coverage/
+htmlcov/
+.coverage
+.nyc_output/
+
+# ---- Secrets ----
+*.pem
+*.key
+secrets/
